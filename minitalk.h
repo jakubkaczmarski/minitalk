@@ -14,4 +14,4 @@
 #include <unistd.h>
 #include "ft_printf/ft_printf.h"
 void start_server();
-int	ft_atoi(const char *str); rm --cached path_to_submodule
+int	ft_atoi(const char *str); 
