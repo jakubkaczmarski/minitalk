@@ -6,7 +6,7 @@
 /*   By: jkaczmar <jkaczmar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/05 19:28:51 by jkaczmar          #+#    #+#             */
-/*   Updated: 2022/02/05 19:28:52 by jkaczmar         ###   ########.fr       */
+/*   Updated: 2022/02/05 20:35:40 by jkaczmar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,4 +14,4 @@
 #include <unistd.h>
 #include "ft_printf/ft_printf.h"
 void start_server();
-int	ft_atoi(const char *str);
+int	ft_atoi(const char *str); rm --cached path_to_submodule
