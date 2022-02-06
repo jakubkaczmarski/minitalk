@@ -6,7 +6,7 @@
 /*   By: jkaczmar <jkaczmar@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/05 19:28:55 by jkaczmar          #+#    #+#             */
-/*   Updated: 2022/02/06 16:20:52 by jkaczmar         ###   ########.fr       */
+/*   Updated: 2022/02/06 17:27:39 by jkaczmar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,18 +24,18 @@ void	catch_bytes(int byte)
 	}
 	if (counter == 8)
 	{
-		if (str == '\0')
-		{
-			ft_printf("\n");
-			counter = 0;
-			str = 0;
-		}
-		else
-		{
+		// if (str == '\0')
+		// {
+		// 	// ft_printf("\n");
+		// 	counter = 0;
+		// 	str = 0;
+		// }
+		// else
+		// {
 			ft_printf("%c", str);
 			counter = 0;
 			str = 0;
-		}
+		// }
 	}
 }
 
