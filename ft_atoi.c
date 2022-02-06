@@ -3,20 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jkaczmar <jkaczmar@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jkaczmar <jkaczmar@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/05 19:28:49 by jkaczmar          #+#    #+#             */
-/*   Updated: 2022/02/05 19:28:49 by jkaczmar         ###   ########.fr       */
+/*   Updated: 2022/02/06 15:50:51 by jkaczmar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minitalk.h"
+
 static int	ft_isdigit(int ch)
 {
 	if ((ch >= '0' && ch <= '9'))
 		return (1);
 	return (0);
 }
+
 int	ft_atoi(const char *str)
 {
 	int	res;
